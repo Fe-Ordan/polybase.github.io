@@ -4,7 +4,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">     
-	<title>List of Modules – POLYVER</title>
+	<title>POLYVER</title>
 <link rel="dns-prefetch" href="//s.w.org">
 <link href="https://fonts.gstatic.com" crossorigin rel="preconnect">
 
@@ -32,12 +32,12 @@ section.bg-color2.home-page{background:url('https://polybasedz.netlify.com/wp-co
 
 
 
-<link rel="amphtml" href="https://polybasedz.netlify.com/list-of-modules/"><link rel="icon" href="https://polybasedz.netlify.com/wp-content/uploads/2019/12/cropped-abstract-colorful-flow-shapes-background_23-2148244293-32x32.jpg" sizes="32x32">
+<link rel="amphtml" href="https://polybasedz.netlify.com/87-2/"><link rel="icon" href="https://polybasedz.netlify.com/wp-content/uploads/2019/12/cropped-abstract-colorful-flow-shapes-background_23-2148244293-32x32.jpg" sizes="32x32">
 <link rel="icon" href="https://polybasedz.netlify.com/wp-content/uploads/2019/12/cropped-abstract-colorful-flow-shapes-background_23-2148244293-192x192.jpg" sizes="192x192">
 <link rel="apple-touch-icon-precomposed" href="https://polybasedz.netlify.com/wp-content/uploads/2019/12/cropped-abstract-colorful-flow-shapes-background_23-2148244293-180x180.jpg">
 <meta name="msapplication-TileImage" content="https://polybasedz.netlify.com/wp-content/uploads/2019/12/cropped-abstract-colorful-flow-shapes-background_23-2148244293-270x270.jpg">
 <style id="kirki-inline-styles">body{font-family:Open Sans;font-weight:400;text-transform:none;}@font-face{font-display:swap;font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans Regular'), local('OpenSans-Regular'), url(//PLACEHOLDER.wpsho/wp-content/uploads/2019/12/mem8YaGs126MiZpBA-U1UQ.woff) format('woff');}</style></head>
-<body class="page-template-default page page-id-75 wp-embed-responsive">
+<body class="page-template-default page page-id-87 wp-embed-responsive">
     	<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
     <header id="masthead" class="site-header header-area" role="banner">	
         <div class="container">
@@ -57,7 +57,7 @@ section.bg-color2.home-page{background:url('https://polybasedz.netlify.com/wp-co
 						<div id="site-header-menu" class="site-header-menu">
 													<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
 								<div class="menu-menu-container"><ul id="menu-menu" class="primary-menu"><li id="menu-item-83" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-83"><a href="https://polybasedz.netlify.com">Home</a></li>
-<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-75 current_page_item menu-item-85"><a title="Mobile Version" href="https://polybasedz.netlify.com/list-of-modules/" aria-current="page">List of Modules</a></li>
+<li id="menu-item-85" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-85"><a title="Mobile Version" href="https://polybasedz.netlify.com/list-of-modules/">List of Modules</a></li>
 </ul></div>							</nav>
 						
 					</div>					
@@ -89,7 +89,7 @@ section.bg-color2.home-page{background:url('https://polybasedz.netlify.com/wp-co
        <section class="post-title-area bg-color2">
          <div class="container">
             <div class="post-title-content">
-               <h1 class="heading-1">   List of Modules</h1>
+               <h1 class="heading-1"></h1>
             </div>
          </div>
          <div id="post-title-shape"></div>
@@ -100,11 +100,71 @@ section.bg-color2.home-page{background:url('https://polybasedz.netlify.com/wp-co
             <div class="container">
                <div class="row">
 			   <div class="col-md-10 mx-auto">                  
-                     <div id="post-75" class="single-post post-75 page type-page status-publish hentry blog-post blog-spacing blog-list wow fadeIn">
+                     <div id="post-87" class="single-post post-87 page type-page status-publish hentry blog-post blog-spacing blog-list wow fadeIn">
                                             
                 <div class="single-content entry-content">
                      
-<figure class="wp-block-table"><table class=""><thead><tr><th>Module Name</th><th>Abbreviation</th></tr></thead><tbody><tr><td>Matlab</td><td>ML</td></tr><tr><td>Informatique</td><td>Info</td></tr><tr><td>Théorie de signal</td><td>THS</td></tr><tr><td>Systeme linaire multivariable</td><td>SLM, smtv, Sys Multi<br></td></tr><tr><td>Optimisation</td><td>optim</td></tr></tbody></table></figure>
+
+
+    <title>Choose your preferences</title>
+
+
+<script>
+    (function (d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+            return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.com/en_US/messenger.Extensions.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'Messenger'));
+    window.extAsyncInit = () => {
+        // TODO: How to parse env file from here?
+        MessengerExtensions.getSupportedFeatures(function success(result) {
+            let features = result.supported_features;
+            if (features.includes("context")) {
+                MessengerExtensions.getContext('<APP_ID>',
+                    function success(thread_context) {
+                        // success
+                        document.getElementById("psid").value = thread_context.psid;
+                    },
+                    function error(err) {
+                        // error
+                        console.log(err);
+                    }
+                );
+            }
+        }, function error(err) {
+            // error retrieving supported features
+            console.log(err);
+        });
+        document.getElementById('submitButton').addEventListener('click', () => {
+            MessengerExtensions.requestCloseBrowser(function success() {
+                console.log("Webview closing");
+            }, function error(err) {
+                console.log(err);
+            });
+        });
+    };
+</script>
+<form action="/optionspostback" method="get">
+    <input type="hidden" name="psid" id="psid">
+    <h3>Pillows</h3>
+    <input type="radio" name="pillows" value="soft" checked>Soft<br>
+    <input type="radio" name="pillows" value="hard">Hard<br>
+    <h3>Bed</h3>
+    <input type="radio" name="bed" value="single" checked>Single<br>
+    <input type="radio" name="bed" value="double">Double<br>
+    <input type="radio" name="bed" value="twin">Twin<br>
+    <h3>View</h3>
+    <input type="radio" name="view" value="sea" checked>Sea<br>
+    <input type="radio" name="view" value="street">Street<br>
+    <input type="submit" value="Submit" id="submitButton">
+</form>
+
+
    
 
 				</div>
